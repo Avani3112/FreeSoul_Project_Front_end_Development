@@ -1,0 +1,641 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>FreeSoul </title>
+
+ <!-- swiper cdn link -->
+ <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+ <!-- font awesome cdn link  -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+ <!-- custom css file link  -->
+ <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+<!-- header section starts -->
+
+
+<header>
+
+  <div id="menu-bar" class="fas fa-bars"></div>
+
+  <a href="#" class="logo"><span>F</span>reeSoul</a>
+  
+  <nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#book">Booking</a>
+    <a href="#packages">Destinations</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Activity</a>
+    <a href="#review">Testimonials</a>
+    <a href="#contact">Support</a>
+  </nav>
+
+  <div class="icons">
+    <i class="fas fa-search" id="search-btn"></i>
+    <i class="fas fa-user" id="login-btn"></i>
+  </div>
+
+  <form action="" class="search-bar-container">
+    <input type="search" id="search-bar" placeholder="search here...">
+    <label for="search-bar" class="fas fa-search"></label>
+  </form>
+
+</header>
+
+<!-- header section ends    -->
+
+<!-- login form container -->
+
+<div class="login-form-container">
+
+  <i class="fas fa-times" id="form-close"></i>
+
+  <form action="">
+    <h3>login</h3>
+    <input type="email" class="box" placeholder="enter your email">
+    <input type="password" class="box" placeholder="enter your password">
+    <input type="submit" value="login now" class="btn">
+    <input type="checkbox" id="remember">
+    <label for="remember">remember me</label>
+    <p>forget password? <a href="#">click here</a></p>
+    <p>don't have an account? <a href="#">register now</a></p>
+  </form>
+</div>
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+  <div class="content">
+    <h3>Nothing Can Stop You</h3>
+    <p>discover new places with FreeSoul, New Journey awaits</p>
+    <a href="#" class="btn">discover more</a>
+  </div>
+
+  <div class="controls">
+    <span class="vid-btn active" data-src="Images/vid-1.mp4"></span>
+    <span class="vid-btn" data-src="Images/vid-2.mp4"></span>
+    <span class="vid-btn" data-src="Images/vid-3.mp4"></span>
+    <span class="vid-btn" data-src="Images/vid-4.mp4"></span>
+    <span class="vid-btn" data-src="Images/vid-5.mp4"></span>
+  </div>
+
+  <div class="video-container">
+    <video src="Images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+  </div>
+
+</section> -->
+
+<!-- home section ends --> 
+
+
+<!-- book section starts -->
+<section class="book" id="book">
+  <h1 class="heading">
+    <span>b</span>
+    <span>o</span>
+    <span>o</span>
+    <span>k</span>
+    <span class="space"></span>
+    <span>n</span>
+    <span>o</span>
+    <span>w</span>
+  </h1>
+
+  <div class="row">
+    <div class="image">
+      <img src="Images/book-img.svg" alt="">
+    </div>
+    <form action="">
+      <div class="inputBox">
+        <h3>where to</h3>
+        <input type="text" placeholder="place name">
+      </div>
+      <div class="inputBox">
+        <h3>how many</h3>
+        <input type="number" placeholder="number of guests">
+      </div>
+      <div class="inputBox">
+        <h3>arrivals</h3>
+        <input type="date">
+      </div>
+      <div class="inputBox">
+        <h3>leaving</h3>
+        <input type="date">
+      </div>
+      <input type="submit" class="btn" value="book now">
+    </form>
+  </div>
+</section>
+
+
+<!-- book section ends -->
+
+
+<!-- Destinations section starts -->
+
+
+<section class="packages" id="packages">
+
+  <h1 class="heading">
+    <span>D</span>
+    <span>E</span>
+    <span>S</span>
+    <span>T</span>
+    <span>I</span>
+    <span>N</span>
+    <span>A</span>
+    <span>T</span>
+    <span>I</span>
+    <span>O</span>
+    <span>N</span>
+    <span>S</span>
+  </h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <img src="images/p-1.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> India </h3>
+        <p>Explore India - the soil of cultural diversity & love!</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $600.00 <span>$1200.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/p-2.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> Singapore </h3>
+        <p>Explore the Night Safari in Singapore - a once in a lifetime Experience!</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $750.00 <span>$1000.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/p-3.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> Australia </h3>
+        <p>Visit the world's largest coral reef system, visible from outer space!</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $490.00 <span>$980.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/p-4.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> Ireland </h3>
+        <p>Explore the world's most beautiful natural sites, along with the popular Ring of Kerry!</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $400.00 <span>$800.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/p-5.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> USA </h3>
+        <p>The USA is home to Yellowstone National Park, the first national park in the world!</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $900.00 <span>$1800.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images/p-6.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> Tokyo </h3>
+        <p>Tokyo hosts the annual AnimeJapan convention, one of the largest anime events in the world!</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $1150.00 <span>$2300.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- Destinations section ends -->
+
+
+<!-- services section starts -->
+<section class="services" id="services">
+
+  <h1 class="heading">
+    <span>s</span>
+    <span>e</span>
+    <span>r</span>
+    <span>v</span>
+    <span>i</span>
+    <span>c</span>
+    <span>e</span>
+    <span>s</span>
+  </h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <i class="fas fa-hotel"></i>
+      <h3>affordable hotels</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate
+        exercitationem ut minima itaque iusto ipsum corrupti!</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-utensils"></i>
+      <h3>food and drinks</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate
+        exercitationem ut minima itaque iusto ipsum corrupti!</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-bullhorn"></i>
+      <h3>safty guide</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate
+        exercitationem ut minima itaque iusto ipsum corrupti!</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-globe-asia"></i>
+      <h3>around the world</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate
+        exercitationem ut minima itaque iusto ipsum corrupti!</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-plane"></i>
+      <h3>fastest travel</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate
+        exercitationem ut minima itaque iusto ipsum corrupti!</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-hiking"></i>
+      <h3>adventures</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate
+        exercitationem ut minima itaque iusto ipsum corrupti!</p>
+    </div>
+  </div>
+</section>
+
+<!-- services section ends -->
+
+<!-- Activity section starts -->
+
+<section class="gallery" id="gallery">
+
+  <h1 class="heading">
+    <span>A</span>
+    <span>C</span>
+    <span>T</span>
+    <span>I</span>
+    <span>V</span>
+    <span>I</span>
+    <span>T</span>
+    <span>Y</span>
+  </h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <img src="images/g-1.jpg" alt="">
+      <div class="content">
+        <h3>Amazing places</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-2.jpg" alt="">
+      <div class="content">
+        <h3>Beautiful Beaches</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-3.jpg" alt="">
+      <div class="content">
+        <h3>Ancient Sites</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-4.jpg" alt="">
+      <div class="content">
+        <h3>Tracking</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-5.jpg" alt="">
+      <div class="content">
+        <h3>Architectural Beatuies</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-6.jpg" alt="">
+      <div class="content">
+        <h3>Nature</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-7.jpg" alt="">
+      <div class="content">
+        <h3>Mount Climbing</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-8.jpg" alt="">
+      <div class="content">
+        <h3>Kayaking</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-9.jpg" alt="">
+      <div class="content">
+        <h3>Music Festivals</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- Activity section ends -->
+
+
+<!-- Testimonials section starts  -->
+
+<section class="review" id="review">
+
+  <h1 class="heading">
+    <span>T</span>
+    <span>E</span>
+    <span>S</span>
+    <span>T</span>
+    <span>I</span>
+    <span>M</span>
+    <span>O</span>
+    <span>N</span>
+    <span>I</span>
+    <span>A</span>
+    <span>L</span>
+    <span>S</span>
+  </h1>
+
+  <div class="swiper-container review-slider">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="images/pic1.png" alt="">
+          <h3>Ryan Gosling</h3>
+        <p>I recently booked a trip using FreeSoul, and I was thoroughly impressed by the user-friendly interface and the easy
+            booking process. The site interface was friendly, and I could find exactly what I needed in just a few clicks.
+            Overall, it was a great experience for us. Great job on creating such a user-oriented travel website!</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="images/pic2.png" alt="">
+          <h3>Tom Cruise</h3>
+        <p>I want to extend my gratitude to the customer support team at FreeSoul. They went above and beyond to ensure that my
+            travel arrangements were perfect. Their prompt responses and personal attention to detail made all the difference.
+            It's comforting to know that such a supportive team is just a call away whenever I plan my travels.!</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="images/pic3.png" alt="">
+          <h3>Bradd Pitt</h3>
+        <p>FreeSoul has truly impressed me with the wide range of travel options available. Whether I was looking for a serene
+            beach getaway or an adventurous mountain trek, I found multiple choices that catered to my preferences. The detailed
+            descriptions and varied offerings made it easy to tailor a perfect holiday. Thanks for making world exploration so
+            accessible and exciting!!</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="images/pic4.png" alt="">
+          <h3>Ashlying </h3>
+        <p>The travel guides and blog posts on FreeSoul are exceptional! They are not only informative but also very engaging,
+            filled with insider tips that you wouldn't typically find elsewhere. Reading through your content has inspired me
+            and significantly enhanced my travel experiences. Keep up the fantastic work in educating and inspiring your users!
+        </p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Testimonials section ends -->
+
+
+
+
+<!-- contact section starts -->
+
+<section class="contact" id="contact">
+
+  <h1 class="heading">
+    <span>S</span>
+    <span>U</span>
+    <span>P</span>
+    <span>P</span>
+    <span>O</span>
+    <span>R</span>
+    <span>T</span>
+  </h1>
+
+  <div class="row">
+
+    <div class="image">
+      <img src="images/contact-img.svg" alt="">
+    </div>
+
+    <form action="">
+      <div class="inputBox">
+        <input type="text" placeholder="Enter your Name">
+        <input type="email" placeholder="Email">
+      </div>
+      <div class="inputBox">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text" placeholder="Subject">
+      </div>
+      <textarea placeholder="Type Your Query" name="" id="" cols="30" rows="10"></textarea>
+      <input type="submit" class="btn" value="send message">
+    </form>
+
+  </div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+
+<!-- brand section starts -->
+
+
+<section class="brand-container">
+
+  <div class="swiper-container brand-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+    </div>
+  </div>
+
+</section>
+
+
+
+<!-- brand section ends -->
+
+
+<!-- footer section starts -->
+
+<section class="footer">
+
+  <div class="box-container">
+
+    <div class="box">
+      <h3>Support</h3>
+      <a href="#">Help</a>
+      <a href="#">Call US</a>
+      <a href="#">FAQ</a>
+    </div>
+    <div class="box">
+      <h3>Community</h3>
+      <a href="#">Popular Destinations</a>
+      <a href="#">Travel Guide</a>
+      <a href="#">Data Policy</a>
+    </div>
+    <div class="box">
+      <h3>Quick Links</h3>
+      <a href="#">Home</a>
+      <a href="#">book</a>
+      <a href="#">Destinations</a>
+      <a href="#">Services</a>
+      <a href="#">Activity</a>
+      <a href="#">Testimonials</a>
+      <a href="#">Support</a>
+    </div>
+    <div class="box">
+      <h3>follow us</h3>
+      <a href="#">facebook</a>
+      <a href="#">instagram</a>
+      <a href="#">twitter</a>
+      <a href="#">linkedin</a>
+    </div>
+  </div>
+  <h1 class="credit"> Developed By <span> FreeSoul </span> | All rights reserved By FreeSoul@2024! </h1>
+</section>
+
+<!-- footer section ends -->
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="script.js"></script>
+
+</body>
+</html>
